@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/p-savciucc/ci_cd_lab:not-found
+          image: ghcr.io/p-savciucc/ci_cd_lab:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
